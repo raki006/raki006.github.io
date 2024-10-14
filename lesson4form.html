@@ -11,17 +11,18 @@
     <h2>Form Enhancements</h2>
 
     <form action="/signin" method="post">
-
+ <!-- Username Field -->
         <label for="username">Username:</label>
         <input id="username" name="username" type="text" placeholder="username" required>
-
+  <!-- Password Field -->
         <label for="password">Password:</label>
         <input id="password" name="password" type="password" placeholder="password" minlength="8" required>
 
+ <!-- Submit Button -->
         <input type="submit" value="Login">
     </form>
 
-    
+
     <h1>Task: Login Exercise</h1>
 
     <form action="/signin" method="post">
@@ -38,6 +39,98 @@
         <input type="submit" value="Login">
     </form>
     
+
+    <h1>Register</h1>
+    <form action="/register" method="post">
+
+    <div>
+        <!-- First Name field -->
+        <label for="firstName">First Name:</label>
+        <!-- Changed type from "FirstName" to "text" and id/name to lowercase -->
+        <input id="firstName" name="firstName" type="text" placeholder="John" required>
+
+        <!-- Last Name field -->
+        <label for="lastName">Last Name:</label>
+        <!-- Changed type from "LastName" to "text" and id/name to lowercase -->
+        <input id="lastName" name="lastName" type="text" placeholder="Smith" required>
+    </div>
+
+    <div>
+        <!--radio button choices-->
+        <label for="radio-choice-1">Male</label>
+      <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" />
+
+      <label for="radio-choice-2">Female</label>
+      <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
+
+      <label for="radio-choice-3">Other</label>
+      <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3" />
+
+    </div>
+
+    <div>
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="email@example.com" required>
+        <!-- Type set to "email" for proper validation -->
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password" placeholder="password" minlength="5" maxlength="10" required>
+    </div>
+    <div>
+        <!--months-->
+        <select name="select-choice" id="select-choice">
+          <option value="0" selected disabled>Month</option>
+          <option value="january">Jan</option>
+          <option value="february">Feb</option>
+          <option value="march">Mar</option>
+          <option value="april">Apr</option>
+          <option value="may">May</option>
+          <option value="june">Jun</option>
+          <option value="july">Jul</option>
+          <option value="august">Aug</option>
+          <option value="september">Sep</option>
+          <option value="october">Oct</option>
+          <option value="november">Nov</option>
+          <option value="december">Dec</option>
+        </select>
+  <!--days-->
+        <select name="birthday-day" id="day">
+          <option value="0" selected disabled>Day</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+  <!--years-->
+        <select name="birthday-year" id="year">
+          <option value="0" selected disabled>Year</option>
+          <option value="2008">2008</option>
+          <option value="2007">2007</option>
+          <option value="2006">2006</option>
+          <option value="2005">2005</option>
+          <option value="2004">2004</option>
+          <option value="2003">2003</option>
+        </select>
+      </div>
+  
+      <div>
+        <!-- check box-->
+        <label for="checkbox">I agree to the terms and conditions</label>
+        <input type="checkbox" name="checkbox" id="checkbox"/>
+      </div>
+  
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
 </body>
 </html>
 
