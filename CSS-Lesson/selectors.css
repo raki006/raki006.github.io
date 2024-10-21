@@ -31,8 +31,7 @@ p{
 
 /*Make all inputs have a 3px red border*/
 input{
-    border:3px red border ;
-}
+    border:3px red border ; } ? /* red border*/
 
 /* Give everything with the class 'hello' a white background*/
 .hello{ 
