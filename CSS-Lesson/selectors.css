@@ -31,17 +31,17 @@ p{
 
 /*Make all inputs have a 3px red border*/
 input{
-    border:3px red border ; } ? /* red border*/
+    border:3px  red solid ; }  /* red border*/
 
 /* Give everything with the class 'hello' a white background*/
 .hello{ 
-    background-color:white ;
+    background-color: white;
 }
 
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 #special{
-    border: 2px solid #9b59b6;
+    border: 2px solid rgb(63, 68, 239);
 }
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
@@ -51,7 +51,7 @@ input{
  }
 
 /*Make only inputs with type 'text' have a gray background*/
-input[input=text] {
+input[type="text"] {
     background-color: gray;
 }
 
@@ -66,7 +66,7 @@ background:pink;
 
 div:nth-of-type(3) p:nth-of-type(2) {
 	border: 5px white solid; 
-
+}
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
 
@@ -95,7 +95,6 @@ label{
 #special::first-letter{
     color:green;
     font-size:100px;
-}
 }
 
 /*Make the <h1> element's color change to blue when hovered over */
