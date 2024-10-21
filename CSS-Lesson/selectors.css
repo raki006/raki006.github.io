@@ -93,7 +93,7 @@ label{
 }
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-#special:: first-letter{
+#special::first-letter{
     color:green;
     font-size:100px;
 }
@@ -107,5 +107,4 @@ h1:hover{
 /*Make the <a> element's that have been visited gray */
 a:visited{
     color:gray;
-}
 }
