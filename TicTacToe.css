@@ -2,3 +2,37 @@ h1{
     text-align: center;
     font-size: 40px;
 }
+table{ 
+    margin: 0 auto;
+}
+td{
+   width:100px ;
+   height: 100px;
+   padding: 0;
+   margin:0;
+}
+
+ .veritcal{
+    border-left: 1px solid black;
+    border-right:1px solid black;
+}
+
+.horizontal{
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+img{
+    width:300px;
+    height:auto;
+    ;
+}
+
+
+
