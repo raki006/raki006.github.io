@@ -1,0 +1,25 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+}
+
+
+
+h1{ 
+    text-transform: uppercase;
+    margin-bottom: 1.66%;
+}
+
+
+hr{
+    border: 1px dotted #008000
+}
+img{
+    float: left;
+    width: 30%;
+    aspect-ratio: 1 / 1; /*all images are square */
+    height: auto;
+    margin: 1.66%;
+    object-fit: cover;
+ 
+}
